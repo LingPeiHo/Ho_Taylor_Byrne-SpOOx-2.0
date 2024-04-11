@@ -237,7 +237,7 @@ An optional step is to run a number of statistical tests to see if pairs of clus
 ```
 python SpOOx/hyperion_pipeline.py make spatialstats_summary
 ```
-By default a limited number of tests are carried out. If you want more tests (see src/spatialstats), these can be specified in the pipeline.yaml  config with the spatialstats >functions
+By default a limited number of tests are carried out. The updated version of SpOOx contains the contacting cell network and neighbourhood PCF (see src/spatialstats), these can be specified in the pipeline.yaml  config with the spatialstats >functions
 parameter. In addition if you have annotated the clusters, you can use these annotations by creating a file (see src/spatialstats for the structure ) and specifying this with spatialstats annotations parameter e.g.
 ```
 spatialstats:
